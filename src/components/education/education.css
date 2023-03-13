@@ -1,0 +1,26 @@
+.table{
+    border:none !important;
+   
+    border-collapse:collapse;
+    border:1px solid #132347;
+    border-radius: 10px !important;
+    border-bottom: #102048 !important;
+}
+th,td{
+    padding: 0.92rem 1rem !important;
+    font-size: 1rem;
+}
+thead{
+    background: #7865FF;
+    color: white;
+}
+td{
+    font-size: .8rem;
+    color: #fff;
+    font-weight: 400;
+
+}
+tr:nth-child(even){
+    background: #102048;
+
+}
